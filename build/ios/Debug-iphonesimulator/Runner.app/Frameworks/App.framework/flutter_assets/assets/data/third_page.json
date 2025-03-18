@@ -1,0 +1,99 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "title": "Co Working space",
+      "rating": 4.5,
+      "ratings": 254,
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+      },
+      "minutesAway": 12,
+      "images": [
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Leanne Graham",
+      "rating": 4.5,
+      "ratings": 254,
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+      },
+      "minutesAway": 12,
+      "images": [
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Leanne Graham",
+      "rating": 4.5,
+      "ratings": 254,
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+      },
+      "minutesAway": 12,
+      "images": [
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Co Working space",
+      "rating": 4.5,
+      "ratings": 254,
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874"
+      },
+      "minutesAway": 12,
+      "images": [
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200",
+        "https://picsum.photos/200"
+      ]
+    }
+  ],
+  "pagination": {
+    "total_pages": 3,
+    "current_page": 3,
+    "page_size": 10,
+    "total_records": 24
+  }
+}

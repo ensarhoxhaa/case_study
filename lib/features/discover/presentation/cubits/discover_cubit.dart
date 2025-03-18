@@ -39,7 +39,7 @@ class DiscoverCubit extends Cubit<DiscoverState> {
     );
   }
 
-  Future<void> getMoreLocations(DateTime date) async {
+  Future<void> getMoreLocations() async {
     if (!state.isFetchingMore &&
         state.locations.pagination.currentPage <
             state.locations.pagination.totalPages) {

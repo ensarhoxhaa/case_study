@@ -26,7 +26,7 @@ mixin _$AddressDto {
   String? get suite => throw _privateConstructorUsedError;
   @JsonKey(name: 'city')
   String get city => throw _privateConstructorUsedError;
-  @JsonKey(name: 'zipCode')
+  @JsonKey(name: 'zipcode')
   String get zipcode => throw _privateConstructorUsedError;
 
   /// Serializes this AddressDto to a JSON map.
@@ -49,7 +49,7 @@ abstract class $AddressDtoCopyWith<$Res> {
       {@JsonKey(name: 'street') String street,
       @JsonKey(name: 'suite') String? suite,
       @JsonKey(name: 'city') String city,
-      @JsonKey(name: 'zipCode') String zipcode});
+      @JsonKey(name: 'zipcode') String zipcode});
 }
 
 /// @nodoc
@@ -105,7 +105,7 @@ abstract class _$$AddressDtoImplCopyWith<$Res>
       {@JsonKey(name: 'street') String street,
       @JsonKey(name: 'suite') String? suite,
       @JsonKey(name: 'city') String city,
-      @JsonKey(name: 'zipCode') String zipcode});
+      @JsonKey(name: 'zipcode') String zipcode});
 }
 
 /// @nodoc
@@ -154,7 +154,7 @@ class _$AddressDtoImpl implements _AddressDto {
       {@JsonKey(name: 'street') required this.street,
       @JsonKey(name: 'suite') this.suite,
       @JsonKey(name: 'city') required this.city,
-      @JsonKey(name: 'zipCode') required this.zipcode});
+      @JsonKey(name: 'zipcode') required this.zipcode});
 
   factory _$AddressDtoImpl.fromJson(Map<String, dynamic> json) =>
       _$$AddressDtoImplFromJson(json);
@@ -169,7 +169,7 @@ class _$AddressDtoImpl implements _AddressDto {
   @JsonKey(name: 'city')
   final String city;
   @override
-  @JsonKey(name: 'zipCode')
+  @JsonKey(name: 'zipcode')
   final String zipcode;
 
   @override
@@ -213,7 +213,7 @@ abstract class _AddressDto implements AddressDto {
           {@JsonKey(name: 'street') required final String street,
           @JsonKey(name: 'suite') final String? suite,
           @JsonKey(name: 'city') required final String city,
-          @JsonKey(name: 'zipCode') required final String zipcode}) =
+          @JsonKey(name: 'zipcode') required final String zipcode}) =
       _$AddressDtoImpl;
 
   factory _AddressDto.fromJson(Map<String, dynamic> json) =
@@ -229,7 +229,7 @@ abstract class _AddressDto implements AddressDto {
   @JsonKey(name: 'city')
   String get city;
   @override
-  @JsonKey(name: 'zipCode')
+  @JsonKey(name: 'zipcode')
   String get zipcode;
 
   /// Create a copy of AddressDto

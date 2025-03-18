@@ -9,7 +9,7 @@ class AddressDto with _$AddressDto {
     @JsonKey(name: 'street') required String street,
     @JsonKey(name: 'suite') String? suite,
     @JsonKey(name: 'city') required String city,
-    @JsonKey(name: 'zipCode') required String zipcode,
+    @JsonKey(name: 'zipcode') required String zipcode,
   }) = _AddressDto;
 
   factory AddressDto.fromJson(Map<String, Object?> json) =>

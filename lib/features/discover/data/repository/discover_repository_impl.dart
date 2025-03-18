@@ -13,10 +13,10 @@ class DiscoverRepositoryImpl implements DiscoverRepository{
 
   @override
   Future<Result<LocationsResponseEntity>> getLocations({
-    int? page,
+    required int page,
   }) async {
     try {
-      final result = await _mockData.getLocations();
+      final result = await _mockData.getLocations(page);
 
       final entity = LocationsResponseEntity.fromDto(result);
 

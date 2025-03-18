@@ -1,3 +1,4 @@
+import 'package:case_study/features/discover/presentation/screens/discover_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -16,7 +17,7 @@ final goRouter= GoRouter(
   routes: [
     GoRoute(
       path: AppRoutes.discover,
-      builder: (context, state) => SizedBox(),
+      builder: (context, state) => DiscoverScreen(),
     ),
   ],
 );

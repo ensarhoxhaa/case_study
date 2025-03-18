@@ -11,7 +11,7 @@ _$AddressDtoImpl _$$AddressDtoImplFromJson(Map<String, dynamic> json) =>
       street: json['street'] as String,
       suite: json['suite'] as String?,
       city: json['city'] as String,
-      zipcode: json['zipCode'] as String,
+      zipcode: json['zipcode'] as String,
     );
 
 Map<String, dynamic> _$$AddressDtoImplToJson(_$AddressDtoImpl instance) =>
@@ -19,5 +19,5 @@ Map<String, dynamic> _$$AddressDtoImplToJson(_$AddressDtoImpl instance) =>
       'street': instance.street,
       'suite': instance.suite,
       'city': instance.city,
-      'zipCode': instance.zipcode,
+      'zipcode': instance.zipcode,
     };

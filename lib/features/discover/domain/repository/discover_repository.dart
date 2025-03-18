@@ -3,6 +3,6 @@ import 'package:case_study/features/discover/domain/entity/locations_response_en
 
 abstract class DiscoverRepository {
   Future<Result<LocationsResponseEntity>> getLocations({
-    int? page,
+    required int page,
   });
 }
